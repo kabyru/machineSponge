@@ -2,7 +2,7 @@
 machineSponge, a SpongeBob episode-generating Recursive Neural Network Program.
 Developed by Kaleb Byrum (@kabyru)
 Derived from MortyFire by Sarthak Mittal (@naiveHobo)
-Main file (main.py)
+Main file (with CUDA support) (mainGPU.py)
 """
 
 
