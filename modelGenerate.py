@@ -11,7 +11,7 @@ import torch.nn as nn
 class MachineSponge(nn.Module):
 
     def __init__(self, vocab_size, embed_size, lstm_size, seq_length, num_layers, dropout=0.5, bidirectional=False,
-                 train_on_gpu=False):
+                 train_on_gpu=train_on_gpu):
         nn.Module.__init__(self)
 
         self.vocab_size = vocab_size
