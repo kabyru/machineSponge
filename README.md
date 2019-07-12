@@ -13,7 +13,6 @@ Windows: main.py --mode train
 
 Afterwards, you may use the 'generate' argument to create transcripts based off of your newly created model.
 
-NOTE: This current pre-release uses WINDOWS PyTorch for CPUs, and will not make use of CUDA-supported hardware unless modified in the main.py model.
-A main.py model that makes use of CUDA will be added soon.
+NOTE: This current pre-release uses WINDOWS PyTorch, choose the proper MAIN file depending whether you wish to use CUDA-supported hardware to expedite the run or not.
 
 (Idea and base RNN code comes from MortyFire, created by Sarthak Mittal (@naiveHobo)
