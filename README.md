@@ -11,6 +11,8 @@ Before you can generate transcripts, you must TRAIN the model. Therefore, the fi
 
 Windows: main.py --mode train (or for CUDA support, Windows: mainGPU.py --mode train)
 
+Use the GUI to select the training data included in this REPO (data/spongebob.txt)
+
 Afterwards, you may use the 'generate' argument to create transcripts based off of your newly created model.
 
 NOTE: This current pre-release uses WINDOWS PyTorch, choose the proper MAIN file depending whether you wish to use CUDA-supported hardware to expedite the run or not.
