@@ -17,4 +17,4 @@ Afterwards, you may use the 'generate' argument to create transcripts based off 
 
 NOTE: This current pre-release uses WINDOWS PyTorch, choose the proper MAIN file depending whether you wish to use CUDA-supported hardware to expedite the run or not.
 
-(Idea and base RNN code comes from MortyFire, created by Sarthak Mittal (@naiveHobo)
+(Base RNN code comes from MortyFire, created by Sarthak Mittal (@naiveHobo)
